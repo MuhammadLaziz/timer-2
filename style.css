@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.timer{
+    min-width: 35%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.counter{
+    font-size: 45px;
+    font-weight: 500;
+    margin-bottom: 25px;
+}
+button{
+    padding: 5px 30px;
+    margin: 0 15px;
+}
+.add{
+    color: #fff;
+    background-color: #60B937;
+}
+.start{
+    color: #fff;
+    background-color: #4E86F6;
+}
+.reset{
+    color: red;
+    background-color: #fff;
+    border: 1px solid red;
+}
+.note{
+    width: 100%;
+    display: flex;
+    /* align-items: center; */
+    padding: 5px;
+    justify-content: space-between;
+    flex-direction: column;
+    margin: 25px auto;
+}
+.span{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 15px;
+    border: 2px solid red;
+    padding: 5px;
+}
+.delete{
+    background-color: #fff;
+    color: #000;
+    border: 1px dashed red;
+    font-weight: 600;
+}
+.title{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 25px;
+}
+.title span{
+    font-weight: 500;
+    font-size: 25px;
+}
+
+.show{
+    display: block;
+}
+.hide{
+    display: none;
+}
